@@ -49,8 +49,8 @@
       .then(response => response.json())
       .then(bars => {
         bars.forEach(bar => {
-          if (bar.lat && bar.lon) {
-            L.marker([bar.lat, bar.lon])
+          if (bar.lat && bar.lng) {
+            L.marker([bar.lat, bar.lng])
               .addTo(map)
               .bindPopup(`<strong>${bar.name}</strong>`);
           }
