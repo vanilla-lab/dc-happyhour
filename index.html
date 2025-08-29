@@ -73,6 +73,17 @@
       color: black;
     }
 
+    .search-input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      background-color: #fff;
+      margin-bottom: 8px;
+      box-sizing: border-box;
+    }
+    
     .side-panel select {
       width: 100%;
       padding: 8px;
@@ -141,6 +152,12 @@
       color: white;
     }
     
+    .dark-theme .side-panel .search-input {
+      background-color: #444;
+      color: white;
+      border-color: #666;
+    }
+    
     .dark-theme .side-panel select {
       background-color: #444;
       color: white;
@@ -162,6 +179,7 @@
 
   <div class="side-panel">
     <h2>Bars</h2>
+    <input type="text" id="bar-search" placeholder="Search bars..." class="search-input">
     <select id="bar-select">
       <option value="">Select a bar…</option>
     </select>
@@ -240,6 +258,8 @@
     // Fetch bars_google.json and plot
     const nameToMarker = new Map();
     const selectEl = document.getElementById('bar-select');
+    const searchInput = document.getElementById('bar-search');
+    let allBars = []; // Store all bars for filtering
 
     fetch('bars_google.json')
       .then(response => response.json())
@@ -266,17 +286,36 @@
           }
         });
 
+        // Store all bars for filtering
+        allBars = bars.filter(b => b && b.name);
+        
         // Populate dropdown alphabetically
-        const sorted = bars
-          .filter(b => b && b.name)
-          .sort((a, b) => a.name.localeCompare(b.name));
-
-        sorted.forEach(bar => {
-          const opt = document.createElement('option');
-          opt.value = bar.name;
-          opt.textContent = bar.name;
-          selectEl.appendChild(opt);
+        populateDropdown(allBars);
+        
+        // Add search functionality
+        searchInput.addEventListener('input', function() {
+          const searchTerm = this.value.toLowerCase();
+          const filteredBars = allBars.filter(bar => 
+            bar.name.toLowerCase().includes(searchTerm) ||
+            (bar.formatted_address && bar.formatted_address.toLowerCase().includes(searchTerm))
+          );
+          populateDropdown(filteredBars);
         });
+        
+        // Function to populate dropdown
+        function populateDropdown(barsToShow) {
+          // Clear existing options
+          selectEl.innerHTML = '<option value="">Select a bar…</option>';
+          
+          // Sort alphabetically and add options
+          const sorted = barsToShow.sort((a, b) => a.name.localeCompare(b.name));
+          sorted.forEach(bar => {
+            const opt = document.createElement('option');
+            opt.value = bar.name;
+            opt.textContent = bar.name;
+            selectEl.appendChild(opt);
+          });
+        }
       })
       .catch(error => {
         console.error('Failed to load bars_google.json:', error);
