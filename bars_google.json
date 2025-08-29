@@ -1,0 +1,572 @@
+[
+  {
+    "name": "Off the Record",
+    "place_id": "ChIJkSF0MLy3t4kRyZFyhJU_4Ak",
+    "lat": 38.9003677,
+    "lng": -77.0369644,
+    "rating": 4.6,
+    "user_ratings_total": 1016,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "bar",
+      "pub",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "800 16th St NW, Washington, DC 20006, USA",
+    "phone": "+1 202-638-6600",
+    "website": "https://www.hayadams.com/dining/off-the-record",
+    "opening_hours": [
+      "Monday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Saturday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Sunday: 11:30\u202fAM\u2009\u2013\u200911:30\u202fPM"
+    ]
+  },
+  {
+    "name": "Madhatter",
+    "place_id": "ChIJWZL8dce3t4kR8dQsbgQBnm0",
+    "lat": 38.9078744,
+    "lng": -77.0418936,
+    "rating": 4.1,
+    "user_ratings_total": 2142,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1319 Connecticut Ave NW, Washington, DC 20036, USA",
+    "phone": "+1 202-833-1495",
+    "website": "https://www.madhatterdc.com/",
+    "opening_hours": [
+      "Monday: 11:30\u202fAM\u2009\u2013\u20091:30\u202fAM",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u20091:30\u202fAM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u20091:30\u202fAM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u20093:00\u202fAM",
+      "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+      "Sunday: 10:00\u202fAM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "The Bottom Line",
+    "place_id": "ChIJ79_J5ru3t4kRAvmLRiUO6tU",
+    "lat": 38.901202700000006,
+    "lng": -77.0403427,
+    "rating": 4.3,
+    "user_ratings_total": 1000,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "bar_and_grill",
+      "bar",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1716 I St NW, Washington, DC 20006, USA",
+    "phone": "+1 202-298-8488",
+    "website": "http://www.thebottomlinedc.com/",
+    "opening_hours": [
+      "Monday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u20091:00\u202fAM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u20091:00\u202fAM",
+      "Saturday: 11:30\u202fAM\u2009\u2013\u20091:30\u202fAM",
+      "Sunday: 11:30\u202fAM\u2009\u2013\u200910:00\u202fPM"
+    ]
+  },
+  {
+    "name": "The Alchemist DC",
+    "place_id": "ChIJZ6QPBF63t4kR7UuF5igQeaY",
+    "lat": 38.9168756,
+    "lng": -77.0310284,
+    "rating": 4.7,
+    "user_ratings_total": 269,
+    "price_level": null,
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1334 U St NW, Washington, DC 20009, USA",
+    "phone": "+1 202-319-9700",
+    "website": "https://www.facebook.com/profile.php/?id=100070679478982",
+    "opening_hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: 5:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Friday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Saturday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Sunday: 5:00\u202fPM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Dirty Habit",
+    "place_id": "ChIJjSq0LJC3t4kRZRYJuUSN6xA",
+    "lat": 38.896965,
+    "lng": -77.022438,
+    "rating": 4.1,
+    "user_ratings_total": 1773,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "restaurant",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "555 8th St NW, Washington, DC 20004, USA",
+    "phone": "+1 202-449-7095",
+    "website": "https://dirtyhabitdc.com/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=gbreferral",
+    "opening_hours": [
+      "Monday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Tuesday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Wednesday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Thursday: 7:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+      "Friday: 7:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Saturday: 9:00\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Sunday: 9:00\u202fAM\u2009\u2013\u20099:00\u202fPM"
+    ]
+  },
+  {
+    "name": "Tom's Watch Bar - Navy Yard/Nationals Park",
+    "place_id": "ChIJ1ev8WnS5t4kRpasyu_g1rHU",
+    "lat": 38.875479,
+    "lng": -77.0072823,
+    "rating": 4.8,
+    "user_ratings_total": 2035,
+    "price_level": null,
+    "types": [
+      "hamburger_restaurant",
+      "american_restaurant",
+      "bar",
+      "event_venue",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1250 Half St SE, Washington, DC 20003, USA",
+    "phone": "+1 202-350-0124",
+    "website": "https://tomswatchbar.com/navy-yard/",
+    "opening_hours": [
+      "Monday: 4:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 4:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 4:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 4:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Stan's DC Restaurant",
+    "place_id": "ChIJNygYeZW3t4kRjuhKv0fwis0",
+    "lat": 38.9035376,
+    "lng": -77.0328725,
+    "rating": 4.5,
+    "user_ratings_total": 2797,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "restaurant",
+      "night_club",
+      "bar",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1029 Vermont Ave NW, Washington, DC 20005, USA",
+    "phone": "+1 202-347-4488",
+    "website": "http://stansdc.com/",
+    "opening_hours": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u200911:30\u202fPM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u20091:30\u202fAM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Saturday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Sunday: 10:00\u202fAM\u2009\u2013\u20099:30\u202fPM"
+    ]
+  },
+  {
+    "name": "Teddy & The Bully Bar",
+    "place_id": "ChIJhRtWZ2-4t4kRG7APJeIMJms",
+    "lat": 38.9063174,
+    "lng": -77.0436799,
+    "rating": 4.3,
+    "user_ratings_total": 1152,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "american_restaurant",
+      "brunch_restaurant",
+      "seafood_restaurant",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1200 19th St NW, Washington, DC 20036, USA",
+    "phone": "+1 202-872-8700",
+    "website": "http://teddyandthebullybar.com/",
+    "opening_hours": [
+      "Monday: Closed",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u20099:15\u202fAM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u20099:15\u202fPM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u20099:15\u202fPM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u20099:30\u202fPM",
+      "Sunday: 10:30\u202fAM\u2009\u2013\u20094:00\u202fPM"
+    ]
+  },
+  {
+    "name": "Last Call Bar",
+    "place_id": "ChIJG6XHEvm5t4kRAqxj3q1Te_U",
+    "lat": 38.9090856,
+    "lng": -76.9987994,
+    "rating": 4.3,
+    "user_ratings_total": 256,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1301-A, 4th St NE, Washington, DC 20002, USA",
+    "phone": "+1 202-543-2051",
+    "website": "http://www.lastcallbardc.com/",
+    "opening_hours": [
+      "Monday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Tuesday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Wednesday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Thursday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Friday: 12:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Saturday: 12:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Sunday: 12:00\u202fPM\u2009\u2013\u20092:00\u202fAM"
+    ]
+  },
+  {
+    "name": "The Fox and Hounds Lounge",
+    "place_id": "ChIJ-8uGT8G3t4kR11iYu742Jus",
+    "lat": 38.9108699,
+    "lng": -77.0382386,
+    "rating": 4.1,
+    "user_ratings_total": 351,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "bar",
+      "brunch_restaurant",
+      "night_club",
+      "bar_and_grill",
+      "american_restaurant",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1533 17th St NW, Washington, DC 20036, USA",
+    "phone": "+1 202-232-6307",
+    "website": "http://www.foxandhoundslounge.com/",
+    "opening_hours": [
+      "Monday: 3:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+      "Tuesday: 3:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+      "Wednesday: 3:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+      "Thursday: 3:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Quadrant Bar & Lounge",
+    "place_id": "ChIJh_OK8ra3t4kRBMbx8IXW6r0",
+    "lat": 38.9048813,
+    "lng": -77.04911589999999,
+    "rating": 4.3,
+    "user_ratings_total": 298,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "wine_bar",
+      "night_club",
+      "bar",
+      "event_venue",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1150 22nd St NW, Washington, DC 20037, USA",
+    "phone": "+1 202-503-4628",
+    "website": "https://www.sevenreasonsgroup.com/quadrant",
+    "opening_hours": [
+      "Monday: 6:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Tuesday: 6:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Wednesday: 6:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Thursday: 6:30\u202fAM\u2009\u2013\u200911:00\u202fPM",
+      "Friday: 6:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 7:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: 7:00\u202fAM\u2009\u2013\u200911:00\u202fPM"
+    ]
+  },
+  {
+    "name": "Quill at The Jefferson",
+    "place_id": "ChIJOYdIe7-3t4kREg_CQCzRQFQ",
+    "lat": 38.906029,
+    "lng": -77.036935,
+    "rating": 4.7,
+    "user_ratings_total": 244,
+    "price_level": "PRICE_LEVEL_EXPENSIVE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1200 16th St NW, Washington, DC 20036, USA",
+    "phone": "+1 202-448-2300",
+    "website": "https://www.jeffersondc.com/downtown-washington-dc-restaurants/quill/",
+    "opening_hours": [
+      "Monday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Friday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: 11:30\u202fAM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Never Looked Better",
+    "place_id": "ChIJl2rNhk23t4kRccPI8sF8H1c",
+    "lat": 38.9065136,
+    "lng": -77.0246007,
+    "rating": 3.8,
+    "user_ratings_total": 185,
+    "price_level": null,
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "130 Blagden Alley NW, Washington, DC 20001, USA",
+    "phone": "+1 877-773-2539",
+    "website": "http://www.neverlookedbetterdc.com/",
+    "opening_hours": [
+      "Monday: Closed",
+      "Tuesday: Closed",
+      "Wednesday: Closed",
+      "Thursday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Friday: 5:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Saturday: 5:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Sunday: Closed"
+    ]
+  },
+  {
+    "name": "Jane Jane",
+    "place_id": "ChIJbwUdjH63t4kR9_gS9lEMU8A",
+    "lat": 38.9128737,
+    "lng": -77.03166949999999,
+    "rating": 4.5,
+    "user_ratings_total": 312,
+    "price_level": null,
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1705 14th St NW, Washington, DC 20009, USA",
+    "phone": null,
+    "website": "http://www.janejanedc.com/",
+    "opening_hours": [
+      "Monday: 5:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 5:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 5:00\u202fPM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 5:00\u202fPM\u2009\u2013\u20091:00\u202fAM",
+      "Friday: 2:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Saturday: 2:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Sunday: 2:00\u202fPM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Blue Moon DC Lounge",
+    "place_id": "ChIJbyQgFHy3t4kRrN84LXOAiH8",
+    "lat": 38.9058973,
+    "lng": -77.0428632,
+    "rating": 3,
+    "user_ratings_total": 37,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "bar_and_grill",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1827 M St NW, Washington, DC 20036, USA",
+    "phone": null,
+    "website": "http://bluemoon.dine.online/?utm_source=website",
+    "opening_hours": [
+      "Monday: Closed",
+      "Tuesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Wednesday: 10:00\u202fAM\u2009\u2013\u20092:00\u202fAM",
+      "Thursday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+      "Friday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+      "Saturday: 10:00\u202fAM\u2009\u2013\u20093:00\u202fAM",
+      "Sunday: 7:00\u202fPM\u2009\u2013\u20093:00\u202fAM"
+    ]
+  },
+  {
+    "name": "St. Regis Bar",
+    "place_id": "ChIJG6HF9L63t4kRxv5aaFMK08U",
+    "lat": 38.9022759,
+    "lng": -77.0362352,
+    "rating": 4.6,
+    "user_ratings_total": 142,
+    "price_level": null,
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "923 16th St NW, Washington, DC 20006, USA",
+    "phone": "+1 202-509-8000",
+    "website": "https://www.marriott.com/en-us/hotels/wassx-the-st-regis-washington-dc/dining/?scid=feed67b0-9a2f-4de1-8df6-114544116108",
+    "opening_hours": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Froggy Bottom Pub",
+    "place_id": "ChIJBSHQQbe3t4kRPL-_VTXKEkw",
+    "lat": 38.902888,
+    "lng": -77.04584,
+    "rating": 4.3,
+    "user_ratings_total": 853,
+    "price_level": "PRICE_LEVEL_INEXPENSIVE",
+    "types": [
+      "pub",
+      "vietnamese_restaurant",
+      "sandwich_shop",
+      "pizza_restaurant",
+      "dessert_restaurant",
+      "bar",
+      "american_restaurant",
+      "food_store",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "store",
+      "establishment"
+    ],
+    "formatted_address": "2021 K St NW, Washington, DC 20006, USA",
+    "phone": "+1 202-338-3000",
+    "website": "https://www.froggybottompub.com/",
+    "opening_hours": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: Closed"
+    ]
+  },
+  {
+    "name": "Lost & Found DC",
+    "place_id": "ChIJmUEaG-23t4kRb1enc-7KsP0",
+    "lat": 38.9067741,
+    "lng": -77.0241739,
+    "rating": 4.3,
+    "user_ratings_total": 499,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1240 9th St NW, Washington, DC 20001, USA",
+    "phone": "+1 202-450-6052",
+    "website": "http://www.lostandfounddc.com/",
+    "opening_hours": [
+      "Monday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Tuesday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Wednesday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Thursday: 4:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Friday: 4:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Saturday: 2:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Sunday: 2:00\u202fPM\u2009\u2013\u20092:00\u202fAM"
+    ]
+  },
+  {
+    "name": "The Mirror",
+    "place_id": "ChIJtVaV_pS3t4kRnh33VzfT1QQ",
+    "lat": 38.902918799999995,
+    "lng": -77.0326906,
+    "rating": 4.2,
+    "user_ratings_total": 566,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "bar",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1413 K St NW, Washington, DC 20005, USA",
+    "phone": null,
+    "website": "http://www.themirrordc.com/",
+    "opening_hours": [
+      "Monday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Tuesday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Wednesday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Thursday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM",
+      "Friday: 5:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Saturday: 5:00\u202fPM\u2009\u2013\u20093:00\u202fAM",
+      "Sunday: 5:00\u202fPM\u2009\u2013\u20092:00\u202fAM"
+    ]
+  },
+  {
+    "name": "Blackfinn DC",
+    "place_id": "ChIJYfyNILy3t4kRYnZDA5dl2vQ",
+    "lat": 38.9010999,
+    "lng": -77.0375074,
+    "rating": 4.2,
+    "user_ratings_total": 2243,
+    "price_level": "PRICE_LEVEL_MODERATE",
+    "types": [
+      "american_restaurant",
+      "pub",
+      "bar",
+      "restaurant",
+      "food",
+      "point_of_interest",
+      "establishment"
+    ],
+    "formatted_address": "1620 I St NW, Washington, DC 20006, USA",
+    "phone": "+1 202-429-4350",
+    "website": "https://www.blackfinndc.com/",
+    "opening_hours": [
+      "Monday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Tuesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Wednesday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Thursday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Friday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Saturday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM",
+      "Sunday: 11:00\u202fAM\u2009\u2013\u200912:00\u202fAM"
+    ]
+  }
+]
