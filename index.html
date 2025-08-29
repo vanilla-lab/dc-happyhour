@@ -118,19 +118,31 @@
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // Fetch bars.json and plot
+    // Fetch bars_google.json and plot
     const nameToMarker = new Map();
     const selectEl = document.getElementById('bar-select');
 
-    fetch('bars.json')
+    fetch('bars_google.json')
       .then(response => response.json())
       .then(bars => {
         // Place markers and store references
         bars.forEach(bar => {
           if (bar.name && bar.lat && bar.lng) {
+            // Create rich popup content with Google data
+            const popupContent = `
+              <div style="min-width: 200px;">
+                <h3 style="margin: 0 0 8px 0; color: #333;">${bar.name}</h3>
+                ${bar.formatted_address ? `<p style="margin: 4px 0; color: #666; font-size: 12px;">📍 ${bar.formatted_address}</p>` : ''}
+                ${bar.rating ? `<p style="margin: 4px 0; color: #666; font-size: 12px;">⭐ ${bar.rating}/5 (${bar.user_ratings_total} reviews)</p>` : ''}
+                ${bar.phone ? `<p style="margin: 4px 0; color: #666; font-size: 12px;">📞 ${bar.phone}</p>` : ''}
+                ${bar.website ? `<p style="margin: 4px 0; color: #666; font-size: 12px;"><a href="${bar.website}" target="_blank" style="color: #007bff;">🌐 Website</a></p>` : ''}
+                ${bar.price_level ? `<p style="margin: 4px 0; color: #666; font-size: 12px;">💰 ${bar.price_level.replace('PRICE_LEVEL_', '').toLowerCase()}</p>` : ''}
+              </div>
+            `;
+            
             const marker = L.marker([bar.lat, bar.lng])
               .addTo(map)
-              .bindPopup(`<strong>${bar.name}</strong>`);
+              .bindPopup(popupContent);
             nameToMarker.set(bar.name, marker);
           }
         });
@@ -148,7 +160,7 @@
         });
       })
       .catch(error => {
-        console.error('Failed to load bars.json:', error);
+        console.error('Failed to load bars_google.json:', error);
       });
 
     // When a bar is selected, zoom and open popup
