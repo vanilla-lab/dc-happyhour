@@ -52,6 +52,36 @@
       text-align: center;
     }
     
+    .side-panel {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      z-index: 1001;
+      width: 260px;
+      background-color: white;
+      border: 2px solid black;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      padding: 12px;
+    }
+
+    .side-panel h2 {
+      margin: 0 0 8px 0;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      color: black;
+    }
+
+    .side-panel select {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      background-color: #fff;
+    }
+
     #map {
       height: 100vh;
     }
@@ -62,6 +92,13 @@
   <div class="header">
     <h1>Happy Hour</h1>
     <p class="subtitle">in progress</p>
+  </div>
+
+  <div class="side-panel">
+    <h2>Bars</h2>
+    <select id="bar-select">
+      <option value="">Select a bar…</option>
+    </select>
   </div>
 
   <div id="map"></div>
@@ -82,20 +119,48 @@
     }).addTo(map);
 
     // Fetch bars.json and plot
+    const nameToMarker = new Map();
+    const selectEl = document.getElementById('bar-select');
+
     fetch('bars.json')
       .then(response => response.json())
       .then(bars => {
+        // Place markers and store references
         bars.forEach(bar => {
-          if (bar.lat && bar.lng) {
-            L.marker([bar.lat, bar.lng])
+          if (bar.name && bar.lat && bar.lng) {
+            const marker = L.marker([bar.lat, bar.lng])
               .addTo(map)
               .bindPopup(`<strong>${bar.name}</strong>`);
+            nameToMarker.set(bar.name, marker);
           }
+        });
+
+        // Populate dropdown alphabetically
+        const sorted = bars
+          .filter(b => b && b.name)
+          .sort((a, b) => a.name.localeCompare(b.name));
+
+        sorted.forEach(bar => {
+          const opt = document.createElement('option');
+          opt.value = bar.name;
+          opt.textContent = bar.name;
+          selectEl.appendChild(opt);
         });
       })
       .catch(error => {
         console.error('Failed to load bars.json:', error);
       });
+
+    // When a bar is selected, zoom and open popup
+    selectEl.addEventListener('change', () => {
+      const name = selectEl.value;
+      const marker = nameToMarker.get(name);
+      if (marker) {
+        const latlng = marker.getLatLng();
+        map.setView(latlng, 16);
+        marker.openPopup();
+      }
+    });
   </script>
 
 </body>
