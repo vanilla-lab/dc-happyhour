@@ -295,14 +295,14 @@
       }
     });
     
-    // Add theme toggle to map (positioned below the side panel)
-    map.addControl(new ThemeToggle({position: 'topright'}));
+    // Add theme toggle to map (positioned on the left side)
+    map.addControl(new ThemeToggle({position: 'topleft'}));
     
-    // Adjust toggle button position to avoid side panel overlap
+    // Adjust toggle button position to avoid zoom controls overlap
     setTimeout(() => {
       const toggleContainer = document.querySelector('.theme-toggle-container');
       if (toggleContainer) {
-        toggleContainer.style.marginTop = '120px'; // Move down below side panel
+        toggleContainer.style.marginLeft = '60px'; // Move right to avoid zoom controls
       }
     }, 100);
 
