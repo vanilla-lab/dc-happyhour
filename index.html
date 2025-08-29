@@ -84,13 +84,49 @@
       box-sizing: border-box;
     }
     
-    .side-panel select {
-      width: 100%;
-      padding: 8px;
+    .bars-list {
+      max-height: 400px;
+      overflow-y: auto;
       border: 1px solid #ccc;
       border-radius: 6px;
-      font-size: 14px;
       background-color: #fff;
+    }
+    
+    .bar-item {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      font-size: 14px;
+    }
+    
+    .bar-item:last-child {
+      border-bottom: none;
+    }
+    
+    .bar-item:hover {
+      background-color: #f5f5f5;
+    }
+    
+    .bar-item.selected {
+      background-color: #e3f2fd;
+      border-left: 3px solid #2196f3;
+    }
+    
+    .bar-item .bar-name {
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 4px;
+    }
+    
+    .bar-item .bar-details {
+      font-size: 12px;
+      color: #666;
+    }
+    
+    .bar-item .bar-rating {
+      color: #ff9800;
+      font-weight: 500;
     }
 
     #map {
@@ -158,15 +194,30 @@
       border-color: #666;
     }
     
-    .dark-theme .side-panel select {
+    .dark-theme .side-panel .bars-list {
       background-color: #444;
-      color: white;
       border-color: #666;
     }
     
-    .dark-theme .side-panel select option {
-      background-color: #444;
+    .dark-theme .bar-item {
+      border-bottom-color: #555;
+    }
+    
+    .dark-theme .bar-item:hover {
+      background-color: #555;
+    }
+    
+    .dark-theme .bar-item.selected {
+      background-color: #2c5aa0;
+      border-left-color: #64b5f6;
+    }
+    
+    .dark-theme .bar-item .bar-name {
       color: white;
+    }
+    
+    .dark-theme .bar-item .bar-details {
+      color: #ccc;
     }
   </style>
 </head>
@@ -180,9 +231,9 @@
   <div class="side-panel">
     <h2>Bars</h2>
     <input type="text" id="bar-search" placeholder="Search bars..." class="search-input">
-    <select id="bar-select">
-      <option value="">Select a bar…</option>
-    </select>
+    <div id="bars-list" class="bars-list">
+      <!-- Bars will be populated here -->
+    </div>
   </div>
 
   <div id="map"></div>
@@ -257,7 +308,7 @@
 
     // Fetch bars_google.json and plot
     const nameToMarker = new Map();
-    const selectEl = document.getElementById('bar-select');
+    const barsListEl = document.getElementById('bars-list');
     const searchInput = document.getElementById('bar-search');
     let allBars = []; // Store all bars for filtering
 
@@ -289,8 +340,8 @@
         // Store all bars for filtering
         allBars = bars.filter(b => b && b.name);
         
-        // Populate dropdown alphabetically
-        populateDropdown(allBars);
+        // Populate list alphabetically
+        populateBarsList(allBars);
         
         // Add search functionality
         searchInput.addEventListener('input', function() {
@@ -299,21 +350,44 @@
             bar.name.toLowerCase().includes(searchTerm) ||
             (bar.formatted_address && bar.formatted_address.toLowerCase().includes(searchTerm))
           );
-          populateDropdown(filteredBars);
+          populateBarsList(filteredBars);
         });
         
-        // Function to populate dropdown
-        function populateDropdown(barsToShow) {
-          // Clear existing options
-          selectEl.innerHTML = '<option value="">Select a bar…</option>';
+        // Function to populate bars list
+        function populateBarsList(barsToShow) {
+          // Clear existing list
+          barsListEl.innerHTML = '';
           
-          // Sort alphabetically and add options
+          // Sort alphabetically and add list items
           const sorted = barsToShow.sort((a, b) => a.name.localeCompare(b.name));
           sorted.forEach(bar => {
-            const opt = document.createElement('option');
-            opt.value = bar.name;
-            opt.textContent = bar.name;
-            selectEl.appendChild(opt);
+            const barItem = document.createElement('div');
+            barItem.className = 'bar-item';
+            barItem.innerHTML = `
+              <div class="bar-name">${bar.name}</div>
+              <div class="bar-details">
+                ${bar.formatted_address ? `📍 ${bar.formatted_address.split(',')[0]}` : ''}
+                ${bar.rating ? ` • ⭐ ${bar.rating}/5` : ''}
+              </div>
+            `;
+            
+            // Add click event to focus map on this bar
+            barItem.addEventListener('click', function() {
+              // Remove previous selection
+              document.querySelectorAll('.bar-item').forEach(item => item.classList.remove('selected'));
+              // Add selection to this item
+              this.classList.add('selected');
+              
+              // Focus map on this bar
+              const marker = nameToMarker.get(bar.name);
+              if (marker) {
+                const latlng = marker.getLatLng();
+                map.setView(latlng, 16);
+                marker.openPopup();
+              }
+            });
+            
+            barsListEl.appendChild(barItem);
           });
         }
       })
@@ -321,16 +395,7 @@
         console.error('Failed to load bars_google.json:', error);
       });
 
-    // When a bar is selected, zoom and open popup
-    selectEl.addEventListener('change', () => {
-      const name = selectEl.value;
-      const marker = nameToMarker.get(name);
-      if (marker) {
-        const latlng = marker.getLatLng();
-        map.setView(latlng, 16);
-        marker.openPopup();
-      }
-    });
+    // Bar selection is now handled by clicking on list items
   </script>
 
 </body>
