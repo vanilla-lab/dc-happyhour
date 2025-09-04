@@ -1,0 +1,297 @@
+{
+  "Off the Record": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "Half-price signature cocktails",
+        "$8 craft beers",
+        "Complimentary bar snacks",
+        "Wine by the glass 20% off"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Upscale hotel bar with premium drinks"
+    }
+  },
+  "Madhatter": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$5 domestic beers",
+        "$6 craft beers",
+        "$7 house wines",
+        "Half-price appetizers",
+        "Free popcorn"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Popular sports bar with great food deals"
+    }
+  },
+  "The Bottom Line": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "3:00 PM - 6:00 PM",
+      "deals": [
+        "$3 domestic beers",
+        "$4 craft beers",
+        "$5 well drinks",
+        "Half-price wings",
+        "Free nachos with drink purchase"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Budget-friendly bar & grill"
+    }
+  },
+  "The Alchemist DC": {
+    "happy_hour": {
+      "days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "5:00 PM - 7:00 PM",
+      "deals": [
+        "$6 craft cocktails",
+        "$5 draft beers",
+        "Half-price small plates",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Craft cocktail bar on U Street"
+    }
+  },
+  "Dirty Habit": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 6:00 PM",
+      "deals": [
+        "$8 craft cocktails",
+        "$6 draft beers",
+        "Half-price bar bites",
+        "Wine specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Hotel rooftop bar with city views"
+    }
+  },
+  "Tom's Watch Bar - Navy Yard/Nationals Park": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "3:00 PM - 6:00 PM",
+      "deals": [
+        "$4 domestic beers",
+        "$5 craft beers",
+        "$6 cocktails",
+        "Half-price appetizers",
+        "Game day specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Sports bar near Nationals Park"
+    }
+  },
+  "Stan's DC Restaurant": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$5 domestic beers",
+        "$6 craft beers",
+        "$7 house wines",
+        "Half-price bar menu",
+        "Free chips & salsa"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Casual neighborhood restaurant"
+    }
+  },
+  "Teddy & The Bully Bar": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$6 craft beers",
+        "$7 cocktails",
+        "Half-price appetizers",
+        "Free pretzels",
+        "Wine specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "German-inspired bar with great beer selection"
+    }
+  },
+  "Last Call Bar": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "5:00 PM - 8:00 PM",
+      "deals": [
+        "$3 domestic beers",
+        "$4 craft beers",
+        "$5 well drinks",
+        "Half-price bar food",
+        "Free popcorn"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Late-night bar with budget-friendly drinks"
+    }
+  },
+  "The Fox and Hounds Lounge": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$5 domestic beers",
+        "$6 craft beers",
+        "$7 cocktails",
+        "Half-price appetizers",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "British pub with traditional atmosphere"
+    }
+  },
+  "Quadrant Bar & Lounge": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$6 craft cocktails",
+        "$5 draft beers",
+        "Half-price small plates",
+        "Wine by the glass specials",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Upscale lounge with craft cocktails"
+    }
+  },
+  "Quill at The Jefferson": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "5:00 PM - 7:00 PM",
+      "deals": [
+        "$12 craft cocktails",
+        "$8 draft beers",
+        "Half-price bar menu",
+        "Complimentary bar snacks",
+        "Wine specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Luxury hotel bar with premium drinks"
+    }
+  },
+  "Never Looked Better": {
+    "happy_hour": {
+      "days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "5:00 PM - 7:00 PM",
+      "deals": [
+        "$7 craft cocktails",
+        "$5 draft beers",
+        "Half-price appetizers",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Trendy cocktail bar with creative drinks"
+    }
+  },
+  "Jane Jane": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$6 craft beers",
+        "$7 cocktails",
+        "Half-price bar bites",
+        "Free popcorn",
+        "Wine specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Neighborhood bar with friendly atmosphere"
+    }
+  },
+  "Blue Moon DC Lounge": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$4 domestic beers",
+        "$5 craft beers",
+        "$6 well drinks",
+        "Half-price appetizers",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Casual lounge with budget-friendly drinks"
+    }
+  },
+  "St. Regis Bar": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "5:00 PM - 7:00 PM",
+      "deals": [
+        "$15 signature cocktails",
+        "$10 draft beers",
+        "Half-price bar menu",
+        "Complimentary canapés",
+        "Wine by the glass specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Luxury hotel bar with premium service"
+    }
+  },
+  "Froggy Bottom Pub": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$5 domestic beers",
+        "$6 craft beers",
+        "$7 cocktails",
+        "Half-price appetizers",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "GWU area pub with student-friendly prices"
+    }
+  },
+  "Lost & Found DC": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$6 craft cocktails",
+        "$5 draft beers",
+        "Half-price small plates",
+        "Free bar snacks",
+        "Wine specials"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Trendy bar with creative cocktails"
+    }
+  },
+  "The Mirror": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "5:00 PM - 7:00 PM",
+      "deals": [
+        "$7 craft cocktails",
+        "$5 draft beers",
+        "Half-price appetizers",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Intimate cocktail bar with unique atmosphere"
+    }
+  },
+  "Blackfinn DC": {
+    "happy_hour": {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "times": "4:00 PM - 7:00 PM",
+      "deals": [
+        "$6 domestic beers",
+        "$7 craft beers",
+        "$8 cocktails",
+        "Half-price appetizers",
+        "Free bar snacks"
+      ],
+      "last_updated": "2025-08-29",
+      "notes": "Sports bar chain with multiple locations"
+    }
+  }
+}
